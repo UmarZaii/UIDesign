@@ -7,7 +7,21 @@
     tools:context="com.example.administrator.myapplication.MainActivity">
 
     <FrameLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/eljt_my" />
+    </FrameLayout>
+
+    <FrameLayout
         android:id="@+id/languange"
+        android:layout_below="@id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
